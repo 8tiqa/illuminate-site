@@ -1,0 +1,182 @@
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+ 
+
+
+/*HOME PAGE*/
+
+/*banner*/
+.banner {
+
+    padding: 100px 100px;
+    color: #428BCA;
+    background-color:#f8f8f8;
+    background-size: cover;
+}
+
+.banner h1 {
+    margin: 0;
+    
+    font-size: 3em;
+    text-align: center;
+}
+
+/*login form*/
+#menuLogin {
+    min-width: 200px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+
+
+@media(max-width:767px) {
+    .banner h1 {
+        margin: 0;
+        
+        font-size: 3em;
+    }
+
+}
+
+/*footers*/
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+/*SETTINGS*/
+
+.change-setting {
+
+    padding: 100px 100px;
+    background-size: cover;
+}
+
+/*SEARCH RESULTS*/
+
+.search-results {
+
+    padding: 100px 100px;
+    background-size: cover;
+}
+
+.bs-callout{
+    padding:20px;
+    margin:20px 0;
+    border:1px solid #eee;
+    border-left-width:5px;
+    border-radius:3px
+}
+
+.bs-callout h4{
+    margin-top:0;
+    margin-bottom:5px
+}
+
+.bs-callout p:last-child{
+    margin-bottom:0
+}
+
+.bs-callout code{
+    border-radius:3px
+}
+
+.bs-callout+.bs-callout{
+    margin-top:-5px
+}
+
+/*Articles*/
+
+.bs-callout-warning{
+    border-left-color:#f0ad4e
+}
+
+.bs-callout-warning h4{
+    color:#f0ad4e
+}
+
+
+/*Videos*/
+
+.bs-callout-danger{
+    border-left-color:#d9534f
+}
+
+.bs-callout-danger h4{
+    color:#d9534f
+}
+
+/*Books*/
+
+.bs-callout-info{
+    border-left-color:#5bc0de
+}
+
+.bs-callout-info h4{
+    color:#5bc0de
+}
+
+ .gsc-result-info {
+        display: none;
+    }
+
+ .gcsc-branding {
+        display: none; 
+    }
+
+
+  
+
+   .cse input.gsc-input, input.gsc-input {
+background-image:none !important;
+}
+
+
+/* user_panel style*/
+
+
+
+/*Info Sections*/
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
