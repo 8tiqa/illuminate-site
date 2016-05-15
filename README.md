@@ -2,6 +2,7 @@
 Illuminate is a responsive website that offers a community-driven question-and-answer (Q&A) platform and a knowledge market that allows users to search out the answers alone or together with other Muslims more efficiently. 
 
 The two main features are its search engine capability and its discussion forum. 
+Built using Bootstrap,PHP, Javascript
 
 # how to 
 
